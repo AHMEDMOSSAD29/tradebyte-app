@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  tradebyte:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-29T16:27:39.618694522+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 6b3d71a331219a93c9cbd143ce7a9251fedb28e1023e5ccff1bbb5ad8df214e7
+    name: tradebyte
+    type: application
+    urls:
+    - https://github.com/AHMEDMOSSAD29/tradebyte-app/tradebyte-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-04-29T16:27:39.596855383+03:00"
