@@ -45,7 +45,11 @@ git clone https://github.com/AHMEDMOSSAD29/tradebyte-app.git
 ```
 then 
 ```bash
-Helm install tradebyte-app ./tradebyte
+Helm install tradebyte-app tradebyte/
+```
+then
+```bash
+minikube service tradebyte-service
 ```
 
 
