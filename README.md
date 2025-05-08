@@ -25,8 +25,28 @@ here is my [docker image](https://hub.docker.com/repository/docker/ahmedmosaad11
 [k8s Manifests](k8s)
 
 ### 4. Create Helm Chart
-First, create tradebyte-app:
+First, create tradebyte:
 ```bash
-helm create tradebyte-app
+helm create tradebyte
 ```
+second, convert k8s manifests files by replacing values in k8s files then put it into vlues.yaml file in the chart and then package tradebyte chart:
+```bash
+helm package tradebyte
+```
+third, deploy the application using the Helm chart:
+```bash
+Helm install tradebyte-app ./tradebyte
+```
+
+#### finally if you want to test my chart 
+clone this repo 
+```bash
+git clone https://github.com/AHMEDMOSSAD29/tradebyte-app.git
+```
+then 
+```bash
+Helm install tradebyte-app ./tradebyte
+```
+
+
 
