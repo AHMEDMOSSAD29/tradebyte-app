@@ -1,15 +1,44 @@
 # TradeByte App Helm Chart
 
-This repository contains a Helm chart for deploying a Python application from the [DevOps-Challenge](https://github.com/tradebyte/DevOps-Challenge.git) repository.
+![Helm](https://img.shields.io/badge/Helm-3.0+-blue)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-1.20+-326CE5)
+![Docker](https://img.shields.io/badge/Docker-20.10+-2496ED)
+
+This repository provides a production-ready Helm chart for deploying the TradeByte Python application. The chart packages all necessary Kubernetes manifests with configurable parameters for easy deployment.
+
+## Table of Contents
+- [Prerequisites](##prerequisites)
+- [Quick Start](#quick-start)
+- [Detailed Installation](#detailed-installation)
+  - [1. Clone Source Repository](#1-clone-source-repository)
+  - [2. Docker Image Setup](#2-docker-image-setup)
+  - [3. Kubernetes Manifests](#3-kubernetes-manifests)
+  - [4. Helm Chart Creation](#4-helm-chart-creation)
+- [Deployment](#deployment)
+- [Configuration](#configuration)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
-- git
-- Docker
-- Kubernetes cluster [minikube]
-- Helm
-- kubectl configured to work with your cluster
+Ensure you have the following tools installed:
+
+- `git` - [Installation guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- `Docker` (v20.10+) - [Installation guide](https://docs.docker.com/get-docker/)
+- Kubernetes cluster (Minikube recommended for local testing) - [Minikube setup](https://minikube.sigs.k8s.io/docs/start/)
+- `kubectl` configured for your cluster
+- `Helm` (v3.0+) - [Installation guide](https://helm.sh/docs/intro/install/)
+
+## Quick Start
+
+For immediate deployment using the pre-built chart:
+
+```bash
+git clone https://github.com/AHMEDMOSSAD29/tradebyte-app.git
+cd tradebyte-app
+helm install tradebyte-app tradebyte/
+minikube service tradebyte-service
 
 ## Creating Helm chart Steps
 
