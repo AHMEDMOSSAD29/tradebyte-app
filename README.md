@@ -20,6 +20,13 @@ git clone https://github.com/tradebyte/DevOps-Challenge.git
 ```
 ### 2. Create docker file then Build and Push Docker Image
 here is my [docker image](https://hub.docker.com/repository/docker/ahmedmosaad112/tradebyte-app/tags/latest/sha256-5dab5940461efbbae940ab31c08d0eb74d7426608b072957968b4aedcc9436eb)
-### 3. Create Kubernetes Manifests
 
+### 3. Create Kubernetes Manifests
+[k8s Manifests](k8s)
+
+### 4. Create Helm Chart
+First, create tradebyte-app:
+```bash
+helm create tradebyte-app
+```
 
