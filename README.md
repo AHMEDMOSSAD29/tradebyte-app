@@ -11,7 +11,7 @@ This repository provides a production-ready Helm chart for deploying the TradeBy
 - [Quick Start](#quick-start)
 - [Detailed Installation](#detailed-installation)
   - [1. Clone Source Repository](#1-clone-source-repository)
-  - [2. Docker Image Setup](#2-docker-image-setup)
+  - [2. Create docker file then Build and Push Docker Image](#2-create-docker-file-then-build-and-push-docker-image)
   - [3. Kubernetes Manifests](#3-kubernetes-manifests)
   - [4. Helm Chart Creation](#4-helm-chart-creation)
 
