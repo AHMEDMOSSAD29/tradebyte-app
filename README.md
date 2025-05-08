@@ -39,7 +39,7 @@ git clone https://github.com/AHMEDMOSSAD29/tradebyte-app.git
 cd tradebyte-app
 helm install tradebyte-app tradebyte/
 minikube service tradebyte-service
-
+```
 ## Detailed-installation
 
 ### 1. Clone the Source Repository
