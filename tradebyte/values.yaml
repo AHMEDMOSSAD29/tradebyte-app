@@ -26,7 +26,7 @@ secret:
   name: tradebyte-secrets
   type: Opaque
   stringData:
-    ENVIRONMENT: "DEV"
+    ENVIRONMENT: "PRODUCTION"
     HOST: "0.0.0.0"
     PORT: "80"
     REDIS_HOST: "redis-service"
