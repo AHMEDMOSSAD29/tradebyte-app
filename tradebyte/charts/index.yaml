@@ -9,6 +9,6 @@ entries:
     name: tradebyte
     type: application
     urls:
-    - https://ahmedmosaad29.github.io/tradebyte-app/tradebyte/charts/tradebyte-0.1.0.tgz
+    - /tradebyte-0.1.0.tgz
     version: 0.1.0
 generated: "2025-05-08T18:54:39.243028362+03:00"
