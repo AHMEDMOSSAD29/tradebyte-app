@@ -5,7 +5,7 @@
 ![Docker](https://img.shields.io/badge/Docker-20.10+-2496ED)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-2.0+-blue)
 
-This repository provides a production-ready Helm chart for deploying the TradeByte Python application. The chart packages all necessary Kubernetes manifests with configurable parameters for easy deployment.
+This repository provides a production-ready Helm chart for deploying the TradeByte Python application. The chart packages all necessary Kubernetes manifests with configurable parameters for easy deployment and ArgoCD for applying GitOps concepts.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
@@ -25,6 +25,7 @@ Ensure you have the following tools installed:
 - Kubernetes cluster (Minikube recommended for local testing) - [Minikube setup](https://minikube.sigs.k8s.io/docs/start/)
 - `kubectl` configured for your cluster
 - `Helm` (v3.0+) - [Installation guide](https://helm.sh/docs/intro/install/)
+- `ArgoCD`(v2.0+) - [Installation guide](https://argo-cd.readthedocs.io/en/stable/getting_started/#1-install-argo-cd)
 
 ## Quick Start
 
