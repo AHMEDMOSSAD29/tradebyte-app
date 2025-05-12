@@ -3,6 +3,7 @@
 ![Helm](https://img.shields.io/badge/Helm-3.0+-blue)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-1.20+-326CE5)
 ![Docker](https://img.shields.io/badge/Docker-20.10+-2496ED)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-2.0+-blue)
 
 This repository provides a production-ready Helm chart for deploying the TradeByte Python application. The chart packages all necessary Kubernetes manifests with configurable parameters for easy deployment.
 
@@ -77,4 +78,4 @@ minikube service tradebyte-service
 ```
 
 
-
+ 
