@@ -1,7 +1,7 @@
 #####################################################v tradebyte deployment ###########################
 tradebyte:
   name: tradebyte-app
-  replicas: 2
+  replicas: 1
   selectorLabels:
     app: tradebyte
   podLabels:
@@ -51,7 +51,7 @@ redisService:
 #################################################### redis deployment ##################
 redisDeployment:
   name: redis
-  replicas: 2
+  replicas: 1
   selectorLabels:
     app: redis
   podLabels:
